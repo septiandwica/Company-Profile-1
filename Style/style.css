@@ -1,0 +1,480 @@
+:root{
+    --primary-color: #0008C1;
+    --second-color: #2146C7;
+    --third-color: #E6CBA8;
+    --button-color: #FDF0E0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    z-index: 3;
+}
+.navbar-color{
+    background: linear-gradient(0deg, var(--primary-color), #152c82);
+    transition: all ease-in-out .5s;
+}
+.bg-transparent{
+    transition: all ease-in-out .5s;
+}
+.navbar-brand{
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-link{
+    font-size: 16px;
+}
+.nav-link.active{
+    font-weight: 500;
+}
+.btn-first{
+    font-size: 16px;
+    width: 140px;
+    height: 35px;
+    border: none;
+    background-color: var(--button-color);
+    color: var(--primary-color);
+    font-weight: 500;
+}
+#beranda{
+    height: 100%;
+    background: linear-gradient(145deg, var(--primary-color), #152c82);
+}
+#beranda .container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+.banner-animation{
+    width: 600px;
+    z-index: 1;
+}
+.beranda-tag h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 70px;
+}
+.beranda-tag p{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.btn-second{
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: var(--button-color);
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+#program{
+    padding: 75px 0;
+    height: 100%;
+}
+#program h2{
+    color: var(--primary-color);
+    font-size: 45px;
+    font-weight: 500;
+}
+.about-title{
+    font-size: 18px;
+    color: #000;
+}
+
+.card-program{
+    width: 90%;
+    align-items: center;
+    height: 460px;
+    border-radius: 5px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 0 4px 2px rgba(14, 19, 148, 0.5);
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+.card-program h3{
+    color: var(--primary-color);
+    font-size: 28px;
+    transition: all .2s ease-in;
+
+}
+.card-program p{
+    color: #000;
+    font-size: 16px;
+    transition: all .25s ease-in;
+}
+.program-icon{
+    width: 250px;
+    height: 250px;
+}
+.program1{
+    width: 200px;
+}
+.program2{
+    width: 250px;
+}
+.program3{
+    width: 200px;
+}
+.card-program:hover{
+    background: linear-gradient(145deg, var(--primary-color), #1c3caf);
+    transition: all .3s ease-in;
+}
+.card-program:hover h3{
+    color: #fff;
+    font-size: 28px;
+    transition: all .2s ease-in;
+}
+.card-program:hover p{
+    color: #fff;
+    font-size: 16px;
+    transition: all .2s ease-in;
+}
+
+#testimoni{
+    padding: 100px 0;
+    height: 100%;
+    background: linear-gradient(290deg, var(--primary-color), #152c82);
+}
+#testimoni h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 500;
+}
+#carouselTestimoni{
+    color: #fff;
+}
+.img-testimoni{
+    width: 200px;
+    margin: 40px auto;
+}
+.carousel-item h5{
+    margin: 40px auto;
+}
+
+
+#kontak{
+    background-image: url(../assets/Img/bgkontak.jpeg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#kontak .overlay{
+    background: rgba(0, 0, 0, .5);
+}
+.container-fluid{
+    padding: 150px 0 150px 0;
+}
+#kontak h3{
+    font-weight: 600;
+    font-size:45px;
+    line-height: 50px;
+    color: #fff;
+    margin: 90px 0 25px 0;
+}
+.kontak h6{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 20px 0 13px 0;
+    color: #fff;
+}
+.kontak a{
+    margin-left: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+}
+.card-kontak{
+    width: 100%;
+    height: 445px;
+    padding: 52px 48px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.card-kontak h2{
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 60px;
+    color:var(--second-color);
+    text-align: center;
+}
+.form-control{
+    background: var(--button-color);
+    height: 65px !important;
+    border-radius: 0px;
+}
+.form-floating label{
+    font-size: 16px;
+    line-height: 18px;
+    color: #717171;
+}
+.btn-kontak {
+    width: 100%;
+    height: 65px;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    font-weight: 600px;
+    line-height: 30px;
+}
+footer{
+    height: 50%;
+    width: 100%;
+    background: var(--primary-color);
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
+footer p{
+    margin: 13px;
+}
+
+.left-footer img{
+    width: 40px;
+}
+.footer-copyright{
+    font-size:smaller;
+    bottom: 0;
+    text-align: center;
+}
+
+
+/* Responsive */
+@media screen and (max-width : 1280px){
+    .banner-animation{
+        width: 450px;
+    }
+    .card-program{
+        height: 400px;
+        padding: 20px;
+    }
+    .program-icon{
+        width: 200px;
+        height: 200px;
+    }
+    .program1{
+        width: 120px;
+    }
+    .program2{
+        width: 160px;
+    }
+    .program3{
+        width: 120px;
+    }
+    .card-program h3{
+        font-size: 24px;
+    }
+    .card-program p{
+        font-size: 14px;
+    }
+    .card-program:hover h3{
+        font-size: 24px;
+    }
+    .card-program:hover p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width : 986px){
+    #beranda{
+        padding: 50px 0;
+    }
+    #beranda .container{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .beranda-tag p{
+        width: 100%;
+    }
+    .beranda-banner{
+        display: flex;
+        justify-content: center;
+    }
+
+    #program h2{
+        font-size: 38px;
+    }
+    .about-title{
+        font-size: 16px;
+    }
+    .card-program{
+        width: 70%;
+        height: 460px;
+        padding: 20px;
+        margin: 20px 0;
+    }
+    .program-icon{
+        width: 250px;
+        height: 250px;
+    }
+    .program1{
+        width: 180px;
+    }
+    .program2{
+        width: 220px;
+    }
+    .program3{
+        width: 180px;
+    }
+    .card-program h3{
+        font-size: 28px;
+    }
+    .card-program p{
+        font-size: 16px;
+    }
+    .card-program:hover h3{
+        font-size: 28px;
+    }
+    .card-program:hover p{
+        font-size: 16px;
+    }
+    #testimoni h2{
+        font-size: 38px;
+    }
+
+    #kontak h3{
+        font-size:35px;
+        text-align: center;
+        line-height: 40px;
+        margin: 50px 0 25px 0;
+    }
+    .kontak h6{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .kontak a{
+        line-height: 16px;
+        font-size: 14px;
+    }
+    .card-kontak{
+        margin-top: 30px;
+        width: 100%;
+        height: 400px;
+        padding: 48px 44px;
+        border-radius: 5px;
+    }
+    .card-kontak h2{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .form-control{
+        height: 50px !important;
+    }
+    .form-floating label{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .btn-kontak {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .left-footer img{
+        width: 30px;
+    }
+}
+@media screen and (max-width : 769px){
+    .banner-animation{
+        width: 350px;
+    }
+    .beranda-tag h1{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .beranda-tag p{
+        font-size: 16px;
+    }
+    .btn-second{
+        font-size: 16px;
+        width: 140px;
+        height: 40px;
+    }
+    .card-program{
+        height: 380px;
+        padding: 20px;
+    }
+    .program-icon{
+        width: 200px;
+        height: 200px;
+    }
+    .program1{
+        width: 120px;
+    }
+    .program2{
+        width: 160px;
+    }
+    .program3{
+        width: 120px;
+    }
+    .card-program h3{
+        font-size: 24px;
+    }
+    .card-program p{
+        font-size: 14px;
+    }
+    .card-program:hover h3{
+        font-size: 24px;
+    }
+    .card-program:hover p{
+        font-size: 14px;
+    }
+
+    #kontak h3{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width : 540px){
+    .beranda-tag h1{
+        font-size: 25px;
+    }
+    .card-program{
+        width: 70%;
+        height: 400px;
+        padding: 10px;
+        margin: 20px 0;
+    }
+    .program-icon{
+        width: 180px;
+        height: 180px;
+    }
+    .program1{
+        width: 120px;
+    }
+    .program2{
+        width: 160px;
+    }
+    .program3{
+        width: 120px;
+    }
+    .card-program h3{
+        font-size: 24px;
+    }
+    .card-program p{
+        font-size: 14px;
+    }
+    .card-program:hover h3{
+        font-size: 24px;
+    }
+    .card-program:hover p{
+        font-size: 14px;
+    }
+}
