@@ -1,10 +1,9 @@
 # Freelance-Company-Profile
 
 # Deskripsi
-Ini adalah project company profile sebuah lembaga bimbingan belajar. Project ini selesai dalam jangka waktu 15 jam.
+Ini adalah project company profile sebuah lembaga bimbingan belajar. Project ini selesai dalam jangka waktu 15 jam. Thanks to lottiefiles and unsplash.com
 
 # Teknologi
-Menggunakan
 - HTML
 - CSS
 - JavaScript
@@ -15,4 +14,8 @@ Menggunakan
 
 - Responsive
 
-#License
+# Author
+Septian Dwi Cahyo
+
+# License
+ [GNU GPLv3](LICENSE.txt)
