@@ -22,4 +22,4 @@ Ini adalah project company profile sebuah lembaga bimbingan belajar. Project ini
 Septian Dwi Cahyo
 
 # License
- [GNU GPLv3](LICENSE.txt)
+ [MIT](LICENSE.txt)
