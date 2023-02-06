@@ -1,6 +1,6 @@
 # Freelance-Company-Profile
 
-# <a href="https://thaliaeducation.septiandwica.site">Thaliaeducation.septiandwica.site</a>
+# <a href="https://thaliaeducation.septiandwica.site">Thalia Education</a>
 # Deskripsi
 Ini adalah project company profile sebuah lembaga bimbingan belajar. Project ini selesai dalam jangka waktu 15 jam. Thanks to lottiefiles and unsplash.com
 
