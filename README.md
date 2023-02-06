@@ -1,5 +1,6 @@
 # Freelance-Company-Profile
 
+# Thalia Education (https://thaliaeducation.septiandwica.site)
 # Deskripsi
 Ini adalah project company profile sebuah lembaga bimbingan belajar. Project ini selesai dalam jangka waktu 15 jam. Thanks to lottiefiles and unsplash.com
 
