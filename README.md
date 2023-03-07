@@ -1,5 +1,5 @@
 # Description
-This is a project company profile of a tutoring institution. This project was completed within 15 hours. Thanks to lottiefiles and unsplash.com
+This is a project company profile of a tutoring institution. This project was completed within 15 hours. Thanks to lottiefiles and unsplash.com.
 
 # Technology
 - HTML
